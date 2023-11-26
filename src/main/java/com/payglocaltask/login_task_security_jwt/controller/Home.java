@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "*")
 public class Home {
 
-    @RequestMapping("/welcome")
+    @RequestMapping("/login")
     public String welcome() {
         String text = "This is a private page.\n";
         text += "This page is not allowed for unauthenticated users.";
